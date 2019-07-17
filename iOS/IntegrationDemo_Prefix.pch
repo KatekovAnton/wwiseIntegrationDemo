@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'IntegrationDemo' target in the 'IntegrationDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#include "Platform.h"
+
+#define SUPPORTED_ORIENTATIONS (UIInterfaceOrientationLandscapeLeft == interfaceOrientation)
